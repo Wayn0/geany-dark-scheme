@@ -2,4 +2,4 @@
 
 = Introduction =
 
-Add your contributions to the geany-dark scheme here:
+Add your contributions to the geany-dark scheme here - just type the filename in the first line of the comment box and then paste the contents underneath:
