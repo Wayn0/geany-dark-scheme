@@ -1,4 +1,5 @@
 #summary Add your contributions to the geany-dark scheme here:
+#labels Featured,Phase-Support
 
 ==Creating and Installing Geany themes==
 ===Short version===
