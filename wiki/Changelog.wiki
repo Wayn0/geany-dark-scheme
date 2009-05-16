@@ -1,0 +1,26 @@
+#summary Geany-dark Project Changelog
+#labels Featured,Phase-Implementation
+
+= Changelog =
+
+==geany_dark_filedefs_20090516_190439.tar.bz2:==
+  * Added quick-and-dirty javascript support by Duncan Lock, partially based on (http://www.barryvan.com.au/2009/01/geany-ide-tango-dark-colour-scheme/)
+
+==geany_dark_filedefs_20090516_182543.tar.bz2:==
+  * Improved .php support - .php (improved by s5n43K3s)
+
+==geany_dark_filedefs_20090516_181549.tar.bz2:==
+  * Added support for C++ - .cpp - C++ (contributed by gtk.monkey) 
+  * Added support for D - .d language files (contributed by gtk.monkey)
+  * Added support for Haskel - .haskel (contributed by Dave.Sarman)
+  * Added support for R stats language - .r (contributed by weibullguy) 
+
+==geany_dark_filedefs_20081209_215628.tar.bz2:==
+  * Added support for Latex - .latex page layout language (added by Enrico Tröger)
+
+==geany_dark_filedefs_20081111_185356.tar.bz2:==
+  * Added support for C# - .cs (can't remember where this came from)
+  * Added support for c - .c (can't remember where this came from)
+
+==geany_dark_filedefs_20080906_175251.tar.bz2:==
+  * Initial version, including support for sql, sh, perl, conf, python, java, css, ruby & html - Most of these were originally developed by Roman Snitko, with contributions from Daniel Mlodecki (Javascript support in HTML), Paulo Cabido (C & Java), Nicolas Hainaux (Python) and me (C#, conf, sh & sql)
