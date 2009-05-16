@@ -3,6 +3,10 @@
 
 = Changelog =
 
+==geany_dark_filedefs_20090516_193911.tar.bz2 :==
+  * Improved javascript support from etienne.deparis & ludwig.arne
+  * Improved javascript in HTML support from T.Karbownicki
+
 ==geany_dark_filedefs_20090516_190439.tar.bz2:==
   * Added quick-and-dirty javascript support by Duncan Lock, partially based on (http://www.barryvan.com.au/2009/01/geany-ide-tango-dark-colour-scheme/)
 
