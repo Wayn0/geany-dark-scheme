@@ -3,6 +3,11 @@
 
 = Changelog =
 
+==geany_dark_filedefs_20090927_201349.tar.bz2 :==
+  * Added support for Vala - .vala (contributed by boromil)
+  * Added support for Docbook - .docbook (contributed by gmunkhbaatarmn)
+  * Added support for yaml - .yaml (contributed by pho3nixf1re84)
+
 ==geany_dark_filedefs_20090516_193911.tar.bz2 :==
   * Improved javascript support from etienne.deparis & ludwig.arne
   * Improved javascript in HTML support from T.Karbownicki
