@@ -3,6 +3,9 @@
 
 = Changelog =
 
+==geany_dark_filedefs_20091119_234556.tar.bz2 :==
+  * Added support for Lua - .lua (contributed by curtstrangward)
+
 ==geany_dark_filedefs_20090927_201349.tar.bz2 :==
   * Added support for Vala - .vala (contributed by boromil)
   * Added support for Docbook - .docbook (contributed by gmunkhbaatarmn)
