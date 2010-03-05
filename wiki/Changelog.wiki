@@ -3,6 +3,10 @@
 
 = Changelog =
 
+==geany_dark_filedefs_20100304_190847.tar.bz2 :==
+  * Added support for Markdown - .markdown (contributed by pho3nixf1re84, modified by Duncan Lock). I added the compiler option to this 'compiler=markdown "%f" > "%e".html' which will attempt compile your markdown file to filename.html using the default perl markdown script from John Gruber. I also set the default extension to .markdown
+  * Added support for Nullsoft Scriptable Installer System scripts - .nsis (contributed by mr.soup12, modified by Duncan Lock). I adjusted the colours to fit the theme colours better.
+
 ==geany_dark_filedefs_20091119_234556.tar.bz2 :==
   * Added support for Lua - .lua (contributed by curtstrangward)
 
