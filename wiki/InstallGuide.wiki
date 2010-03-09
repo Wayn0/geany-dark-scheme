@@ -1,9 +1,7 @@
 #summary how to install geany-dark, or any other geany syntax theme
 #labels Featured,Phase-Deploy
 
-=Introduction=
-
-==How to Install the Theme==
+=How to Install the Theme=
 
 Download & Extract the archive from the [http://code.google.com/p/geany-dark-scheme/downloads/list Downloads page]
 
