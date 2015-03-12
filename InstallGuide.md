@@ -1,0 +1,42 @@
+# How to Install the Theme #
+
+Download & Extract the archive from the [Downloads page](http://code.google.com/p/geany-dark-scheme/downloads/list)
+
+## Installation ##
+
+### Linux: (Ubuntu) ###
+
+#### Local User (just for you): ####
+
+The simplest way to do this is to copy the contents of the archive into the `~/.config/geany/filedefs/` folder. This means that you can only have one theme installed at a time though.
+
+A better way is to copy the contents of the archive into a `~/.config/geany/geany_dark_filedefs/` folder, creating the folder if it doesn't already exist. Then create a symlink to that folder:
+
+`ln -s ~/.config/geany/geany_dark_filedefs/ ~/.config/geany/filedefs`
+
+This allows you to have several themes stored in your `~/.config/geany/` folder, and to change which one you're using by changing where the `~/.config/geany/filedefs` symlink points.
+
+#### System Wide: ####
+
+BE SURE TO BACK UP THE EXISTING FILEDEFS IF YOU DON'T WANT TO LOSE THEM!
+
+Copy the contents of the archive into `/usr/share/geany/`
+
+NOTE: Geany may be installed in `/usr/local/geany/` or `/opt/geany/` depending on your OS or your installation method. Be sure to choose the correct directory. This method means that your filedef files will get overwritten when you upgrade Geany and also means that you can only have one theme installed at a time.
+
+### Windows: (XP) ###
+
+Copy Extracted files to...
+
+#### Current User only: ####
+
+`C:\Documents and Settings\YOURUSERNAME\Application Data\geany`
+
+#### System Wide: ####
+BE SURE TO BACK UP THE EXISTING FILEDEFS IF YOU DON'T WANT TO LOSE THEM!
+
+`C:\Program Files\Geany\data`
+
+NOTE: This method means that your filedef files will get overwritten when you upgrade Geany and also means that you can only have one theme installed at a time.
+
+### Mac ###
