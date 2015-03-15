@@ -1,4 +1,4 @@
-# Geany-dark Project Changelog
+# geany-dark-scheme Changelog
 
 ### 0.1 - inital release after migration to github
 
