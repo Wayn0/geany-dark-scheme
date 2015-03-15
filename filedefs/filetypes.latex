@@ -1,0 +1,7 @@
+[styling]
+# foreground;background;bold;italic
+default=0xffffff;0x1E1E1E;false;false
+command=0xFFCB4F;0x1E1E1E;true;false
+tag=0x007f7f;0x1E1E1E;true;false
+math=0x800060;0x1E1E1E;false;false
+comment=0x747474;0x1E1E1E;false;false

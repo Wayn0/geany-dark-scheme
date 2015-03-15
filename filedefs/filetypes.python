@@ -1,0 +1,55 @@
+# For complete documentation of this file, please see Geany's main documentation
+[styling]
+# foreground;background;bold;italic
+default=0xffffff;0x1E1E1E;false;false
+commentline=0x747474;0x1E1E1E;false;false
+number=0x7ECDFF;0x1E1E1E;false;false
+string=0xA18651;0x1E1E1E;false;false
+character=0xA18651;0x1E1E1E;false;false
+word=0xFFCB4F;0x1E1E1E;true;false
+triple=0x008020;0x1E1E1E;false;false
+tripledouble=0x404000;0x1E1E1E;false;false
+classname=0xB2A886;0x1E1E1E;True;false
+defname=0x7EB35B;0x1E1E1E;true;false
+operator=0x98BAC5;0x1E1E1E;true;false
+identifier=0xffffff;0x1E1E1E;false;false
+commentblock=0x747474;0x1E1E1E;false;false
+stringeol=0x000000;0xe0c0e0;false;false
+word2=0x800060;0xe0c0e0;true;false
+decorator=0x808000;0x1E1E1E;false;false
+
+[keywords]
+# all items must be in one line
+# added isinstance & self to the original
+primary=and as assert break class continue def del elif else except exec finally for from global if import in is lambda not or pass print raise return try while with yield False None True isinstance self
+#secondary=False None True isinstance self
+
+
+[settings]
+# default extension used when saving files
+#extension=py
+
+# the following characters are these which a "word" can contains, see documentation
+#wordchars=_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+
+# if only single comment char is supported like # in this file, leave comment_close blank
+comment_open=#
+comment_close=
+
+# set to false if a comment character/string should start at column 0 of a line, true uses any
+# indentation of the line, e.g. setting to true causes the following on pressing CTRL+d
+	#command_example();
+# setting to false would generate this
+#	command_example();
+# This setting works only for single line comments
+comment_use_indent=true
+
+# context action command (please see Geany's main documentation for details)
+context_action_cmd=
+
+[build_settings]
+# %f will be replaced by the complete filename
+# %e will be replaced by the filename without extension
+# (use only one of it at one time)
+compiler=python -c "import py_compile; py_compile.compile('%f')"
+run_cmd=python "%f"
