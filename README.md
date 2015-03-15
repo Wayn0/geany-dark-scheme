@@ -47,7 +47,7 @@ The scheme currently supports highlighting for these languages:
 
 The simplest way to do this is to copy the contents of the filedefs folder into the `~/.config/geany/filedefs/` folder. This means that you can only have one theme installed at a time, though.
 
-A better way is to copy the contents of the archive into a `~/.config/geany/geany_dark_filedefs/` folder, creating the folder if it doesn't already exist. Then create a symlink to that folder:
+A better way, is to copy the contents filedefs folder into a `~/.config/geany/geany_dark_filedefs/` folder, creating the folder if it doesn't already exist. Then create a symlink to that folder:
 
 ```bash
 ln -s ~/.config/geany/geany_dark_filedefs/ ~/.config/geany/filedefs
@@ -64,7 +64,7 @@ Copy the filedefs folder into `/usr/share/geany/`
 **NOTE**: Geany may be installed in `/usr/local/geany/` or `/opt/geany/` depending on your OS or your installation method. Be sure to choose the correct directory. This method means that your filedef files will get overwritten when you upgrade Geany and also means that you can only have one theme installed at a time.
 
 ### Windows:
-Copy Extracted files to...
+Copy the contents of the `filedefs` folder to...
 
 **Current User only:**
 
