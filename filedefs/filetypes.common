@@ -13,8 +13,12 @@ brace_good=0xffffff;0x50AA15;true;false
 brace_bad=0xffffff;0xAA1515;true;false
 
 # the following settings define the colours of the margins on the left side
-margin_linenumber=0x000000;0xd0d0d0;false;false
-margin_folding=0x000000;0xdfdfdf;false;false
+# black on white
+#margin_linenumber=0x000000;0xd0d0d0;false;false
+#margin_folding=0x000000;0xdfdfdf;false;false
+# white on black
+margin_linenumber=0xeee;0x1A1A1A;false;false
+margin_folding=0x888a85;0x1A1A1A;false;false
 
 # background colour of the current line, only the second and third argument is interpreted
 # use the third argument to enable or disable the highlighting of the current line (has to be true/false)
