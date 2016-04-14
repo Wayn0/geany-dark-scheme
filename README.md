@@ -1,5 +1,7 @@
 # geany-dark-scheme
 
+# This theme is looking for a new maintainer: https://github.com/dflock/geany-dark-scheme/issues/26 - let me know if you can help out!
+
 ![Geany Dark Scheme Icon](./img/geany-dark.png)
 
 This is a dark syntax colouring theme for the [Geany](http://www.geany.org/) text editor.
